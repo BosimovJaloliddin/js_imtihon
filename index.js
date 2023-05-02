@@ -69,8 +69,12 @@ const sortAlf = () => {
   let title = "webbrain academy";
 
   let res = "";
-  for(let i=97; i<=122;i++){
-    if(title.)
+  for (let n in title) {
+    for (let i = 97; i <= 122; i++) {
+      if (title[n].charCodeAt() == i) {
+        res += title[n];
+      }
+    }
   }
 };
 console.log("a".charCodeAt());
